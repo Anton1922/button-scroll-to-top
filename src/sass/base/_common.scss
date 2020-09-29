@@ -84,6 +84,7 @@ input[type=number] {
   transition: all 0.3s linear;
 
   & svg {
+    fill: $button-color;
     transition: all 0.3s linear;
   }
 
