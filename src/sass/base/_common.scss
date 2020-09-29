@@ -69,15 +69,16 @@ input[type=number] {
 }
 
 .button {
-  display: none;
   position: fixed;
   bottom: 10vh;
   right: 10vw;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  height: 72px;
-  border: 5px solid $button-color;
+  opacity: 0;
+  //width: 72px;
+  //height: 72px;
+  //border: 5px solid $button-color;
   border-radius: 10%;
   cursor: pointer;
   transition: all 0.3s linear;
