@@ -86,10 +86,11 @@ input[type=number] {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear; }
   .button svg {
+    fill: #4e4e4e;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear; }
   .button:hover {
-    border-color: #4e4e4e; }
+    border-color: #000000; }
   .button:hover svg {
-    fill: #4e4e4e; }
+    fill: #000000; }

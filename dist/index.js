@@ -1,10 +1,6 @@
 'use strict';
 
 var button = document.querySelector('.button');
-console.log('button', button);
-var scroll;
-var scrollSafari;
-window.addEventListener('scroll', scrollFunction);
 
 function scrollFunction() {
   console.log('scrollTop', document.documentElement.scrollTop);
@@ -16,6 +12,7 @@ function scrollFunction() {
   }
 }
 
+window.addEventListener('scroll', scrollFunction);
 button.addEventListener('click', function () {
   document.body.scrollIntoView({
     block: 'start',
